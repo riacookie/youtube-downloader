@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(44, 44, 44);
+  font-family: 'Roboto Mono', monospace;
+  color: #f5f5f5;
+}
+
+a {
+  text-decoration: none !important;
+  color: #f5f5f5;
+}
+
+.readme {
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.urlinput-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.big-container {
+  text-align: center;
+}
+
+.button-container > button {
+  margin-top: 2%;
+}
+
+.convert {
+  outline: none;
+	background-color:#474747;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #474747;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 15px 25px 15px 25px;
+	text-decoration:none;
+}
+
+.convert-audio-only {
+  outline: none;
+	background-color:#474747;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #474747;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 15px 25px 15px 25px;
+	text-decoration:none;
+}
+
+button:hover {
+  background-color: #838383;
+}
+
+input {
+  outline: none;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+input:focus {
+  background-color: rgb(54, 54, 54);
+}

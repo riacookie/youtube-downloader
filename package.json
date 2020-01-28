@@ -1,0 +1,17 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "body {   background-color: rgb(44, 44, 44);   font-family: 'Roboto Mono', monospace;   color: #f5f5f5;   line-height: 25px;   letter-spacing: 1.5px; }",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ytdl-core": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oofie",
+  "license": "MIT"
+}
